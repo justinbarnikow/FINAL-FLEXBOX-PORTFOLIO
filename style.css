@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono',Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  background-image: url(images/cubes.jpg);
+  color: rgb(16, 10, 102);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul li {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 10px;
+
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(123, 122, 146);
+}
+
+img {
+  width: 100%;
+  border: 2px solid rgb(16, 10, 102);
+}
+
+.image-80 {
+  width: 80%;
+}
+
+.image-50 {
+  width: 50%;
+}
+
+.wedding-border {
+  border-radius: 15%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double rgb(16, 10, 102);
+    color: rgb(16, 10, 102);
+    text-align: center;
+    width: 80%;
+}
+
+.border-box {
+  border-radius: 5%;
+  border: 1px solid #f0e79a;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+.icon-borders {
+  border-radius: 5%;
+  border: 2px solid #f0e79a;
+}
+
+form label {
+  display: block;
+  font-family:  "Open Sans", 'Times New Roman', Times, serif;
+}
+
+form input {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+form textarea {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+form textarea {
+  height: 150px;
+  width: 200px;
+}
+
+.form-border {
+  padding: 10px;
+  border-radius: 5%;
+  border: 2px solid #f0e79a;
+}
+
+footer nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer nav ul li {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 10px;
+
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: rgb(123, 122, 146);
+}
+
+.hr-icon {
+  width: 100px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media all and (min-width:800px) {
+  .group {
+    flex-direction: row;
+  }
+  body {
+    font-size: 16px;
+  }
+  #intro-text {
+    margin-top: 120px;
+  }
+
+  #wordpress-paragraph {
+    margin-top: 75px;
+  }
+  #ecommerce-paragraph {
+    margin-top: 100px;
+  }
+
+}
+
+
+  /*main section div p {
+    margin-top: 120px;
+  }
