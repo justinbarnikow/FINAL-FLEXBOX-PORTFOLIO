@@ -35,20 +35,18 @@ header nav ul {
 }
 
 header nav ul li {
-  text-decoration: none;
-  padding: 10px;
+  padding: 0px 5px;
   font-size: 14px;
 
 }
 
 header nav ul li a {
-  text-decoration: none;
-  color: rgb(123, 122, 146);
+  color: rgb(16, 10, 102);
 }
 
 header nav ul li a:hover {
   text-decoration: none;
-  color: rgb(16, 10, 102);
+  color: rgb(226, 55, 155);
 }
 
 img {
@@ -128,7 +126,7 @@ footer nav ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
 }
 
 footer nav ul li {
@@ -140,7 +138,12 @@ footer nav ul li {
 
 footer nav ul li a {
   text-decoration: none;
-  color: rgb(123, 122, 146);
+  color: rgb(16, 10, 102);
+}
+
+footer nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(226, 55, 155);
 }
 
 .hr-icon {
@@ -172,10 +175,5 @@ footer nav ul li a {
   #ecommerce-paragraph {
     margin-top: 100px;
   }
-  header nav ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
 }
-}
+
